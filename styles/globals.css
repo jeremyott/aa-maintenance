@@ -26,11 +26,21 @@ main {
 button {
   background-color: #3B574B;
   color: #ffffff;
+  border: 2px solid #3B574B;
   padding: 10px 20px;
-  border: none;
   text-transform: uppercase;
   font-family: 'Poppins', sans-serif;
+  cursor: pointer;
 }
+
+button:hover {
+  background-color: #ffffff;
+  color: #3B574B;
+  border: 2px solid #3B574B;  
+  padding: 10px 20px;
+
+}
+
 .container {
   height: 100vh;
   display: flex;
